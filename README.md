@@ -14,20 +14,16 @@ This repository contains instructions on how to manipulate the turtlesim package
 ### 1. Start roscore
 
 Open a terminal and run:
-
-```sh
 roscore
 
 ###2. Run Turtlesim Node
 
 In a new terminal, run:
-```sh
 rosrun turtlesim turtlesim_node
 
 ###3. Run Turtlesim Teleop
 
 In another terminal, run:
-```sh
 rosrun turtlesim turtle_teleop_key
 
 -Use the arrow keys to move the turtle around the screen.
